@@ -5,6 +5,7 @@ var jumbotronName = new Vivus('name-jumbotron', {
 }, animateSubtitles);
 
 function animateSubtitles() {
-  $("#subtitles").show("fade", 600,);
-  $("footer").show("fade", 200);
+  $("#subtitles").show("fade", 600, function() {
+    $("footer").show("fade", 200);
+  });
 }
