@@ -1,6 +1,7 @@
 var jumbotronName = new Vivus('name-jumbotron', {
   type: 'sync',
-  duration: 150,
+  duration: 125,
+  pathTimingFunction: Vivus.EASE_IN,
   animTimingFunction: Vivus.EASE_OUT
 }, animateSubtitles);
 
