@@ -9,6 +9,10 @@ a {
     color: floralwhite !important;
 }
 
+code {
+    color: floralwhite !important;
+}
+
 .jumbotron {
     background-color:transparent !important;
 }
